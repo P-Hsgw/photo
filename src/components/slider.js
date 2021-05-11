@@ -20,7 +20,7 @@ export default class SimpleSlider extends Component {
         <Slider {...settings}>
           <div className="uppercase">
             <div className="absolute text-red-500 z-50 w-screen h-screen flex items-center justify-center">
-              <Link to="/" className="text-gray-50 text-5xl">
+              <Link to="/street" className="text-gray-50 text-5xl">
                 Street
               </Link>
             </div>
@@ -32,7 +32,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="uppercase">
             <div className="absolute text-red-500 z-50 w-screen h-screen flex items-center justify-center">
-              <Link to="/" className="text-gray-50 text-5xl">
+              <Link to="/portrait" className="text-gray-50 text-5xl">
                 Portrait
               </Link>
             </div>
@@ -44,7 +44,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="uppercase">
             <div className="absolute text-red-500 z-50 w-screen h-screen flex items-center justify-center">
-              <Link to="/" className="text-gray-50 text-5xl">
+              <Link to="/nature" className="text-gray-50 text-5xl">
                 Nature
               </Link>
             </div>

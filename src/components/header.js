@@ -15,19 +15,19 @@ const Header = ({ siteTitle }) => (
         </li>
         <li>
           {" "}
-          <Link to="/" className="text-gray-50">
+          <Link to="/street" className="text-gray-50">
             Street
           </Link>
         </li>
         <li>
           {" "}
-          <Link to="/" className="text-gray-50">
-            People
+          <Link to="/portrait" className="text-gray-50">
+            Portrait
           </Link>
         </li>
         <li>
           {" "}
-          <Link to="/" className="text-gray-50">
+          <Link to="/nature" className="text-gray-50">
             Nature
           </Link>
         </li>
