@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 
 
 const Header = ({ siteTitle }) => (
-  <div className="absolute z-50  w-screen">
+  <div className="absolute z-50 inset-x-0 top-2">
       <ul className="flex items-center justify-center h-10 space-x-8 text-2xl uppercase">
         <li>
           {" "}

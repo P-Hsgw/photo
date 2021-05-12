@@ -6,7 +6,7 @@ import Seo from "../components/seo"
 
 const NaturePage = () => (
   <Layout>
-    <Seo title="Nature Photography" />
+    <Seo title="Nature Photography"/>
   </Layout>
 )
 
