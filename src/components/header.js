@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <div className="absolute z-50 inset-x-0 top-2">
+  <div className="absolute z-50 inset-x-0 top-4">
     <ul className="flex items-center justify-center h-10 space-x-8 text-4xl uppercase">
       <li>
         {" "}
