@@ -18,10 +18,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div className="bg-gray-800 overflow-hidden burka">
-      { children }
-      </div>
-      
+      <div className="bg-gray-800 overflow-hidden burka">{children}</div>
     </>
   )
 }

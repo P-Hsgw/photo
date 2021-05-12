@@ -54,7 +54,6 @@ export default class SimpleSlider extends Component {
               className="h-screen w-screen"
             />
           </div>
-        
         </Slider>
       </div>
     )
