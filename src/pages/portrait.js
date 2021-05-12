@@ -13,7 +13,7 @@ const PortraitPage = () => (
       <StaticImage src="../images/portrait/DSC00789.jpg" alt="Street photo" />
         <StaticImage src="../images/portrait/DSC00614.jpg" alt="Street photo" />
         <StaticImage src="../images/portrait/DSC04616.jpg" alt="Street photo" />
-      <StaticImage src="../images/portrait/DSC06077.jpg" alt="Street photo" className="col-span-2"/>
+      <StaticImage src="../images/portrait/DSC06077.jpg" alt="Street photo" className="md:col-span-2"/>
         <StaticImage src="../images/portrait/mari.jpg" alt="Street photo" />
 
       </div>

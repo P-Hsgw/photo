@@ -16,7 +16,7 @@ const StreetPage = () => (
         <StaticImage src="../images/street/DSC06448.jpg" alt="Street photo" />
         <StaticImage src="../images/street/DSC07675.jpg" alt="Street photo" />
         <StaticImage src="../images/street/DSC01449.jpg" alt="Street photo" />
-        <StaticImage src="../images/street/DSC01811.jpg" alt="Street photo" className="col-span-2" />
+        <StaticImage src="../images/street/DSC01811.jpg" alt="Street photo" className="md:col-span-2" />
         <StaticImage src="../images/street/DSC04413.jpg" alt="Street photo" />
         <StaticImage src="../images/street/DSC07912.jpg" alt="Street photo" />
         <StaticImage src="../images/street/DSC06408.jpg" alt="Street photo" />
