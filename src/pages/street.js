@@ -4,13 +4,6 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const Modal = ({picture}) => {
-
-return (  <div>
-    <StaticImage src={picture} />
-  </div>)
-}
-
 const StreetPage = () => (
   <Layout>
     <Seo title="Street Photography" />
