@@ -27,7 +27,7 @@ export default class SimpleSlider extends Component {
             <StaticImage
               src="../images/street/DSC06408.jpg"
               alt="Street photo"
-              className="h-screen w-screen"
+              className="h-screen w-screen z-10"
             />
           </div>
           <div className="uppercase">
@@ -39,7 +39,7 @@ export default class SimpleSlider extends Component {
             <StaticImage
               src="../images/portrait/mari.jpg"
               alt="Portrait photo"
-              className="h-screen w-screen"
+              className="h-screen w-screen z-10"
             />
           </div>
           <div className="uppercase">
@@ -51,7 +51,7 @@ export default class SimpleSlider extends Component {
             <StaticImage
               src="../images/nature/DSC07273.jpg"
               alt="Nature photo"
-              className="h-screen w-screen"
+              className="h-screen w-screen z-10"
             />
           </div>
         </Slider>
