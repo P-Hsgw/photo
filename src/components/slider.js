@@ -52,6 +52,7 @@ export default class SimpleSlider extends Component {
               src="../images/nature/DSC07273.jpg"
               alt="Nature photo"
               className="h-screen w-screen z-10"
+              loading="eager"
             />
           </div>
         </Slider>
