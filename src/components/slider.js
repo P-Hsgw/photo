@@ -28,6 +28,7 @@ export default class SimpleSlider extends Component {
               src="../images/street/DSC06408.jpg"
               alt="Street photo"
               className="h-screen w-screen z-10"
+              placeholder="blurred"
             />
           </div>
           <div className="uppercase">
@@ -40,6 +41,8 @@ export default class SimpleSlider extends Component {
               src="../images/portrait/mari.jpg"
               alt="Portrait photo"
               className="h-screen w-screen z-10"
+              placeholder="blurred"
+
             />
           </div>
           <div className="uppercase">
@@ -52,7 +55,7 @@ export default class SimpleSlider extends Component {
               src="../images/nature/DSC07273.jpg"
               alt="Nature photo"
               className="h-screen w-screen z-10"
-              loading="eager"
+              placeholder="blurred"
             />
           </div>
         </Slider>
