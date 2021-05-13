@@ -9,10 +9,6 @@ const MobileHeader = () => {
     setClicked(!clicked)
   }
 
-  const unclick = () => {
-    setClicked(false)
-  }
-
   return (
     <>
       <div
