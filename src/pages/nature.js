@@ -8,7 +8,7 @@ const NaturePage = () => (
   <Layout>
     <Seo title="Nature Photography" />
     <div className="pt-20 mx-4 mb-4">
-      <div class="grid grid-cols-1  md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1  md:grid-cols-3 gap-4">
         <StaticImage
           src="../images/nature/DSC07273.jpg"
           alt="Street photo"
