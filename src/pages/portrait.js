@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Footer from "../components/footer"
 
 const PortraitPage = () => (
   <Layout>
@@ -20,6 +21,7 @@ const PortraitPage = () => (
         <StaticImage src="../images/portrait/mari.jpg" alt="Japanese girl in hot springs" />
       </div>
     </div>
+    <Footer />
   </Layout>
 )
 

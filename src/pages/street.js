@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Footer from "../components/footer"
 
 const StreetPage = () => (
   <Layout>
@@ -29,6 +30,7 @@ const StreetPage = () => (
         <StaticImage src="../images/street/DSC04470.jpg" alt="Rainy day in Shibuya" />
       </div>
     </div>
+    <Footer />
   </Layout>
 )
 

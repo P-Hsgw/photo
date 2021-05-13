@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Footer from "../components/footer"
 
 const NaturePage = () => (
   <Layout>
@@ -29,6 +30,7 @@ const NaturePage = () => (
         <StaticImage src="../images/nature/DSC05062.jpg" alt="Deer in Japan" />
       </div>
     </div>
+    <Footer />
   </Layout>
 )
 
