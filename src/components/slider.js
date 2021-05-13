@@ -26,7 +26,7 @@ export default class SimpleSlider extends Component {
             </div>
             <StaticImage
               src="../images/street/DSC06408.jpg"
-              alt="Street photo"
+              alt="Empty streets of Shinjuku"
               className="h-screen w-screen z-10"
               placeholder="blurred"
             />
@@ -39,7 +39,7 @@ export default class SimpleSlider extends Component {
             </div>
             <StaticImage
               src="../images/portrait/mari.jpg"
-              alt="Portrait photo"
+              alt="Japanese girl in hot springs"
               className="h-screen w-screen z-10"
               placeholder="blurred"
 
@@ -53,7 +53,7 @@ export default class SimpleSlider extends Component {
             </div>
             <StaticImage
               src="../images/nature/DSC07273.jpg"
-              alt="Nature photo"
+              alt="Photo of Mount Fuji in the clouds"
               className="h-screen w-screen z-10"
               placeholder="blurred"
             />
