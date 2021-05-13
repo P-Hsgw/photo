@@ -21,29 +21,29 @@ const MobileHeader = () => {
         <ul className="md:hidden flex flex-col items-center justify-center space-y-5 text-4xl uppercase drop-shadow-2xl text-gray-50">
           <li
             onClick={isClicked}
-            className={`cursor-pointer ${
+            className={`text-shadow-xl cursor-pointer ${
               clicked ? "underline" : "no-underline"
             } pt-4`}
           >
             Menu
           </li>
           <li className={`${clicked ? "list-item" : "hidden"}`}>
-            <Link to="/" className="text-gray-50 z-40">
+            <Link to="/" className="text-shadow-xl text-gray-50 z-40">
               Home
             </Link>
           </li>
           <li className={`${clicked ? "list-item" : "hidden"}`}>
-            <Link to="/street" className="text-gray-50 ">
+            <Link to="/street" className="text-shadow-xl text-gray-50 ">
               Street
             </Link>
           </li>
           <li className={`${clicked ? "list-item" : "hidden"}`}>
-            <Link to="/portrait" className="text-gray-50">
+            <Link to="/portrait" className="text-shadow-xl text-gray-50">
               Portrait
             </Link>
           </li>
           <li className={`${clicked ? "list-item" : "hidden"}`}>
-            <Link to="/nature" className="text-gray-50">
+            <Link to="/nature" className="text-shadow-xl text-gray-50">
               Nature
             </Link>
           </li>
@@ -60,25 +60,25 @@ const Header = ({ siteTitle }) => (
     <ul className="hidden md:flex items-center justify-center h-10 space-x-8 text-4xl uppercase drop-shadow-2xl mt-4">
       <li className="md:list-item hidden">
         {" "}
-        <Link to="/" className="text-gray-50">
+        <Link to="/" className="text-shadow-xl text-gray-50">
           Home
         </Link>
       </li>
       <li className="md:list-item hidden">
         {" "}
-        <Link to="/street" className="text-gray-50 ">
+        <Link to="/street" className="text-shadow-xl text-gray-50 ">
           Street
         </Link>
       </li>
       <li className="md:list-item hidden ">
         {" "}
-        <Link to="/portrait" className="text-gray-50">
+        <Link to="/portrait" className="text-shadow-xl text-gray-50">
           Portrait
         </Link>
       </li>
       <li className="md:list-item hidden">
         {" "}
-        <Link to="/nature" className="text-gray-50">
+        <Link to="/nature" className="text-shadow-xl text-gray-50">
           Nature
         </Link>
       </li>
