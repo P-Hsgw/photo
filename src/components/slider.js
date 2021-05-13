@@ -19,7 +19,7 @@ export default class SimpleSlider extends Component {
       <div>
         <Slider {...settings}>
           <div className="uppercase">
-            <div className="absolute text-red-500 z-50 w-screen h-screen flex items-center justify-center">
+            <div className="absolute text-red-500 z-50 w-screen h-screen flex items-center justify-center drop-shadow-2xl">
               <Link to="/street" className="text-gray-50 text-5xl">
                 Street
               </Link>
@@ -31,7 +31,7 @@ export default class SimpleSlider extends Component {
             />
           </div>
           <div className="uppercase">
-            <div className="absolute text-red-500 z-50 w-screen h-screen flex items-center justify-center">
+            <div className="absolute text-red-500 z-50 w-screen h-screen flex items-center justify-center drop-shadow-2xl">
               <Link to="/portrait" className="text-gray-50 text-5xl">
                 Portrait
               </Link>
@@ -43,7 +43,7 @@ export default class SimpleSlider extends Component {
             />
           </div>
           <div className="uppercase">
-            <div className="absolute text-red-500 z-50 w-screen h-screen flex items-center justify-center">
+            <div className="absolute text-red-500 z-50 w-screen h-screen flex items-center justify-center drop-shadow-2xl">
               <Link to="/nature" className="text-gray-50 text-5xl">
                 Nature
               </Link>
