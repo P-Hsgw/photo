@@ -11,7 +11,7 @@ const MobileHeader = () => {
 
   return (
 
-    <div className={`h-screen z-20 ${clicked? "block" : "none"}`} onClick={isClicked}>
+    <div className={`md:hidden h-screen z-20 ${clicked? "block" : "none"}`} onClick={isClicked}>
     <ul className="z-30 md:hidden flex flex-col items-center justify-center space-y-5 text-4xl uppercase drop-shadow-2xl text-gray-50">
       <li onClick={isClicked} className={`cursor-pointer ${clicked ? "underline" : "no-underline"}`}>
         Menu
