@@ -13,12 +13,12 @@ const PortraitPage = () => (
         <StaticImage src="../images/portrait/DSC00789.jpg" alt="Japanese girl with a face mask" />
         <StaticImage src="../images/portrait/DSC00614.jpg" alt="Running Japanese girl" />
         <StaticImage src="../images/portrait/DSC04616.jpg" alt="Japanese girl in winter" />
+        <StaticImage src="../images/portrait/mari.jpg" alt="Japanese girl in hot springs" />
         <StaticImage
           src="../images/portrait/DSC06077.jpg"
           alt="Sleeping Japanese girl"
           className="md:col-span-2"
         />
-        <StaticImage src="../images/portrait/mari.jpg" alt="Japanese girl in hot springs" />
       </div>
     </div>
     <Footer />
