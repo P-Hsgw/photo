@@ -57,7 +57,7 @@ const Header = ({ siteTitle }) => (
   <div className="absolute z-50 inset-x-0 top-0">
     <MobileHeader />
 
-    <ul className="hidden md:flex items-center justify-center h-10 space-x-8 text-4xl uppercase drop-shadow-2xl mt-4">
+    <ul className="hidden md:flex items-center justify-center h-10 space-x-8 text-4xl uppercase mt-4">
       <li className="md:list-item hidden">
         {" "}
         <Link to="/" className="text-shadow-xl text-gray-50">
