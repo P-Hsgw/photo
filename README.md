@@ -3,5 +3,5 @@
     Visit the website
   </a>
   </br>
-Photo portfolio built in Gatsby.js and Tailwind.
+Responsive, efficient portfolio built in Gatsby.js and Tailwind.
 </p>
